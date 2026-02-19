@@ -1,0 +1,19 @@
+CREATE DATABASE Bibliteca;
+
+USE Bibloteca;
+
+CREATE TABLE Libro(
+NL INT,
+Titulo VARCHAR(50),
+Edicion VARCHAR(30),
+Fecha VARCHAR(30),
+PRIMARY KEY(NL)
+);
+
+CREATE TABLE Autor(
+NA INT,
+Nombre VARCHAR(50),
+PaisOrigen VARCHAR(30),
+Genero VARCHAR(30),
+PRIMARY KEY(NA)
+);
